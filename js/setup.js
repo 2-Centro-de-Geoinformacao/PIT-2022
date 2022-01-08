@@ -98,7 +98,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: '250K_Git_PIT22',
-                subtitle: 'Generalização 1:250.000',
+                subtitle: 'Escala 1:250.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
