@@ -1,7 +1,7 @@
 # Apresentação de projetos
 
-Site que apresenta os projetos concluídos e em andamento no 1º CGEO de forma espacial.
+TESTE TESTE TESTE TESTE TESTE TESTE TESTE
 
-https://1cgeo.github.io/projetos/
+https://lfp-trabalho.github.io/PIT_DSG/
 
-Para tutorial de como configurar acesse a [wiki](https://github.com/1cgeo/projetos/wiki).
+TESTE TESTE TESTE TESTE TESTE TESTE TESTE
