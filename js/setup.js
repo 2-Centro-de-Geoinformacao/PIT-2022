@@ -88,7 +88,7 @@ const INIT_ZOOM = {
 }
 
 var PROJECTS = {
-    'PDDMT 22 (Cartas Topográficas)': {
+    'ppdmt-topo': {
         title: 'PDDMT 22 (Cartas Topográficas)',
         legend: [
             1
@@ -270,7 +270,7 @@ var PROJECTS = {
             }
         ]
     },
-    'PDDMT 22 (Cartas Ortoimagens)': {
+    'pddmt-orto': {
         title: 'PDDMT 22 (Cartas Ortoimagens)',
         legend: [
             1
