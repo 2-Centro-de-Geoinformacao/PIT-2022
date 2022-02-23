@@ -96,8 +96,8 @@ var PROJECTS = {
         description: `Atender o PDDMT para cartas topográficas de 1:250.000 e 1:100.000.`,
         lotes: [
             {
-                name: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt.',
-                subtitle: 'Escala 1:100.000',
+                name: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. 1',
+                subtitle: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -140,8 +140,8 @@ var PROJECTS = {
                 
             },
             {
-                name: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt.',
-                subtitle: 'Escala 1:250.000',
+                name: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. 2',
+                subtitle: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. Escala 1:250.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52]// northeastern corner of the bounds
@@ -183,8 +183,8 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'Campo Grande/MS.',
-                subtitle: 'Escala 1:250.000',
+                name: 'Campo Grande/MS. 3',
+                subtitle: 'Campo Grande/MS. Escala 1:250.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -226,8 +226,8 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'Campo Grande/MS.',
-                subtitle: 'Escala 1:100.000',
+                name: 'Campo Grande/MS. 4',
+                subtitle: 'Campo Grande/MS. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -279,7 +279,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRangea ARP)ARP',
-                subtitle: '',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRangea ARP)ARP',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
