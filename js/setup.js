@@ -105,7 +105,7 @@ var PROJECTS = {
                 styles: [
                     {
                         'id': 'item87a90-fill',
-                        'source': 'Item87a90',
+                        'source': 'item87a90',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -149,7 +149,7 @@ var PROJECTS = {
                 styles: [
                     {
                         'id': 'item79a86-fill',
-                        'source': 'Item79a86',
+                        'source': 'item79a86',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -158,7 +158,7 @@ var PROJECTS = {
                     },
                     {
                         'id': 'item79a86-border',
-                        'source': 'Item79a86',
+                        'source': 'item79a86',
                         'type': 'line',
                         'layout': {},
                         'paint': {
