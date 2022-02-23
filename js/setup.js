@@ -278,7 +278,7 @@ var PROJECTS = {
         description: `Atender o PDDMT para cartas ortoimagens de 1:25.000 e 1:50.000.`,
         lotes: [
             {
-                name: 'item_19',
+                name: 'item-19',
                 subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -286,8 +286,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_19-fill',
-                        'source': 'item_19',
+                        'id': 'item-19-fill',
+                        'source': 'item-19',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -295,8 +295,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_19-border',
-                        'source': 'item_19',
+                        'id': 'item-19-border',
+                        'source': 'item-19',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -305,8 +305,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_19-text',
-                        'source': 'item_19',
+                        'id': 'item-19-text',
+                        'source': 'item-19',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -320,7 +320,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'item_20',
+                name: 'item-20',
                 subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:50.000)',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -328,8 +328,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_20-fill',
-                        'source': 'item20',
+                        'id': 'item-20-fill',
+                        'source': 'item-20',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -337,8 +337,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_20-border',
-                        'source': 'item20',
+                        'id': 'item-20-border',
+                        'source': 'item-20',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -347,8 +347,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_20-text',
-                        'source': 'item20',
+                        'id': 'item-20-text',
+                        'source': 'item-20',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -361,7 +361,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_21',
+                name: 'item-21',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -369,8 +369,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_21-fill',
-                        'source': 'item_21',
+                        'id': 'item-21-fill',
+                        'source': 'item-21',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -378,8 +378,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_21-border',
-                        'source': 'item21',
+                        'id': 'item-21-border',
+                        'source': 'item-21',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -388,8 +388,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_21-text',
-                        'source': 'item_21',
+                        'id': 'item-21-text',
+                        'source': 'item-21',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -402,7 +402,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_39',
+                name: 'item-39',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -410,8 +410,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_39-fill',
-                        'source': 'item_39',
+                        'id': 'item-39-fill',
+                        'source': 'item-39',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -419,8 +419,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_39-border',
-                        'source': 'item_39',
+                        'id': 'item-39-border',
+                        'source': 'item-39',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -429,8 +429,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_39-text',
-                        'source': 'item_39',
+                        'id': 'item-39-text',
+                        'source': 'item-39',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -443,7 +443,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_64',
+                name: 'item-64',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -451,8 +451,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_64-fill',
-                        'source': 'item_64',
+                        'id': 'item-64-fill',
+                        'source': 'item-64',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -460,8 +460,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_64-border',
-                        'source': 'item_64',
+                        'id': 'item-64-border',
+                        'source': 'item-64',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -470,8 +470,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_64-text',
-                        'source': 'item_64',
+                        'id': 'item-64-text',
+                        'source': 'item-64',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -484,7 +484,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_68',
+                name: 'item-68',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -492,8 +492,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_68-fill',
-                        'source': 'item_68',
+                        'id': 'item-68-fill',
+                        'source': 'item-68',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -501,8 +501,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_68-border',
-                        'source': 'item_68',
+                        'id': 'item-68-border',
+                        'source': 'item-68',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -511,8 +511,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_68-text',
-                        'source': 'item_68',
+                        'id': 'item-68-text',
+                        'source': 'item-68',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -525,7 +525,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_71',
+                name: 'item-71',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -533,8 +533,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_71-fill',
-                        'source': 'item_71',
+                        'id': 'item-71-fill',
+                        'source': 'item-71',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -542,8 +542,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_71-border',
-                        'source': 'item_71',
+                        'id': 'item-71-border',
+                        'source': 'item-71',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -552,8 +552,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_71-text',
-                        'source': 'item_71',
+                        'id': 'item-71-text',
+                        'source': 'item-71',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -566,7 +566,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_72',
+                name: 'item-72',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -574,8 +574,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_72-fill',
-                        'source': 'item_72',
+                        'id': 'item-72-fill',
+                        'source': 'item-72',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -583,8 +583,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_72-border',
-                        'source': 'item_72',
+                        'id': 'item-72-border',
+                        'source': 'item-72',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -593,8 +593,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_72-text',
-                        'source': 'item_72',
+                        'id': 'item-72-text',
+                        'source': 'item-72',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -607,7 +607,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_73',
+                name: 'item-73',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -615,8 +615,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_73-fill',
-                        'source': 'item_73',
+                        'id': 'item-73-fill',
+                        'source': 'item-73',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -624,8 +624,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_73-border',
-                        'source': 'item_73',
+                        'id': 'item-73-border',
+                        'source': 'item-73',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -634,8 +634,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_73-text',
-                        'source': 'item_73',
+                        'id': 'item-73-text',
+                        'source': 'item-73',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -648,7 +648,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_243a249',
+                name: 'item-243a249',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -656,8 +656,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_243a249-fill',
-                        'source': 'item21',
+                        'id': 'item-243a249-fill',
+                        'source': 'item-243a249',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -665,8 +665,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_243a249-border',
-                        'source': 'item21',
+                        'id': 'item-243a249-border',
+                        'source': 'item-243a249',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -675,8 +675,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_243a249-text',
-                        'source': 'item21',
+                        'id': 'item-243a249-text',
+                        'source': 'item-243a249',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -689,7 +689,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_254',
+                name: 'item-254',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -697,8 +697,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_254-fill',
-                        'source': 'item_254',
+                        'id': 'item-254-fill',
+                        'source': 'item-254',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -706,8 +706,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_254-border',
-                        'source': 'item_254',
+                        'id': 'item-254-border',
+                        'source': 'item-254',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -716,8 +716,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_254-text',
-                        'source': 'item_254',
+                        'id': 'item-254-text',
+                        'source': 'item-254',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -730,7 +730,7 @@ var PROJECTS = {
                         }
                     },
             {
-                name: 'item_256a270',
+                name: 'item-256a270',
                 subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -738,7 +738,7 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'item_256a270-fill',
+                        'id': 'item-256a270-fill',
                         'source': 'item_256a270',
                         'type': 'fill',
                         'layout': {},
@@ -747,8 +747,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_256a270-border',
-                        'source': 'item_256a270',
+                        'id': 'item-256a270-border',
+                        'source': 'item-256a270',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -757,8 +757,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item_256a270-text',
-                        'source': 'item_256a270',
+                        'id': 'item-256a270-text',
+                        'source': 'item-256a270',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
