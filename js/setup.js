@@ -279,7 +279,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'item_19',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRangea ARP)ARP',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -318,7 +318,458 @@ var PROJECTS = {
                         }
                     }
                 ]
-            }
+            },
+            {
+                name: 'item_20',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:50.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_20-fill',
+                        'source': 'item20',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_20-border',
+                        'source': 'item20',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_20-text',
+                        'source': 'item20',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_21',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_21-fill',
+                        'source': 'item_21',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_21-border',
+                        'source': 'item21',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_21-text',
+                        'source': 'item_21',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_39',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_39-fill',
+                        'source': 'item_39',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_39-border',
+                        'source': 'item_39',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_39-text',
+                        'source': 'item_39',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_64',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_64-fill',
+                        'source': 'item_64',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_64-border',
+                        'source': 'item_64',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_64-text',
+                        'source': 'item_64',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_68',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_68-fill',
+                        'source': 'item_68',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_68-border',
+                        'source': 'item_68',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_68-text',
+                        'source': 'item_68',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_71',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_71-fill',
+                        'source': 'item_71',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_71-border',
+                        'source': 'item_71',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_71-text',
+                        'source': 'item_71',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_72',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_72-fill',
+                        'source': 'item_72',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_72-border',
+                        'source': 'item_72',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_72-text',
+                        'source': 'item_72',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_73',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_73-fill',
+                        'source': 'item_73',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_73-border',
+                        'source': 'item_73',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_73-text',
+                        'source': 'item_73',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_243a249',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_243a249-fill',
+                        'source': 'item21',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_243a249-border',
+                        'source': 'item21',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_243a249-text',
+                        'source': 'item21',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_254',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_254-fill',
+                        'source': 'item_254',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_254-border',
+                        'source': 'item_254',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_254-text',
+                        'source': 'item_254',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    },
+            {
+                name: 'item_256a270',
+                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item_256a270-fill',
+                        'source': 'item_256a270',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item_256a270-border',
+                        'source': 'item_256a270',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item_256a270-text',
+                        'source': 'item_256a270',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 6.14,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
         ]
     }
 }
