@@ -104,8 +104,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'Item87e90-fill',
-                        'source': 'Item87e90',
+                        'id': 'Item87a90-fill',
+                        'source': 'Item87a90',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -113,8 +113,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item87e90-border',
-                        'source': 'Item87e90',
+                        'id': 'Item87a90-border',
+                        'source': 'Item87a90',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -123,8 +123,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item87e90-text',
-                        'source': 'Item87e90',
+                        'id': 'Item87a90-text',
+                        'source': 'Item87a90',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 7.4,
