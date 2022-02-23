@@ -143,8 +143,8 @@ var PROJECTS = {
                 name: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt.',
                 subtitle: 'Escala 1:250.000',
                 zoom: [
-                    [-54.60516441090726, -31.59015763447726], // southwestern corner of the bounds
-                    [-50.14483553439275, -22.90972914019692] // northeastern corner of the bounds
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52]// northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -186,8 +186,8 @@ var PROJECTS = {
                 name: 'Campo Grande/MS.',
                 subtitle: 'Escala 1:250.000',
                 zoom: [
-                    [-54.60516441090726, -31.59015763447726], // southwestern corner of the bounds
-                    [-50.14483553439275, -22.90972914019692] // northeastern corner of the bounds
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -229,8 +229,8 @@ var PROJECTS = {
                 name: 'Campo Grande/MS.',
                 subtitle: 'Escala 1:100.000',
                 zoom: [
-                    [-54.60516441090726, -31.59015763447726], // southwestern corner of the bounds
-                    [-50.14483553439275, -22.90972914019692] // northeastern corner of the bounds
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -281,8 +281,8 @@ var PROJECTS = {
                 name: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRangea ARP)ARP',
                 subtitle: '',
                 zoom: [
-                    [-58.999999898, -32.999999850000002], // southwestern corner of the bounds
-                    [-52.0000001041, -27.499999969] // northeastern corner of the bounds
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
