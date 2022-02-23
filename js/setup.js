@@ -96,7 +96,7 @@ var PROJECTS = {
         description: `Atender o PDDMT para cartas topográficas de 1:250.000 e 1:100.000.`,
         lotes: [
             {
-                name: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. 1',
+                name: 'item87a90',
                 subtitle: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -104,7 +104,7 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'Item87a90-fill',
+                        'id': 'item87a90-fill',
                         'source': 'Item87a90',
                         'type': 'fill',
                         'layout': {},
@@ -113,8 +113,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item87a90-border',
-                        'source': 'Item87a90',
+                        'id': 'item87a90-border',
+                        'source': 'item87a90',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -123,8 +123,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item87a90-text',
-                        'source': 'Item87a90',
+                        'id': 'item87a90-text',
+                        'source': 'item87a90',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 7.4,
@@ -140,7 +140,7 @@ var PROJECTS = {
                 
             },
             {
-                name: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. 2',
+                name: 'item79a86',
                 subtitle: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. Escala 1:250.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -148,7 +148,7 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'Item79a86-fill',
+                        'id': 'item79a86-fill',
                         'source': 'Item79a86',
                         'type': 'fill',
                         'layout': {},
@@ -157,7 +157,7 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item79a86-border',
+                        'id': 'item79a86-border',
                         'source': 'Item79a86',
                         'type': 'line',
                         'layout': {},
@@ -167,8 +167,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item79a86-text',
-                        'source': 'Item79a86',
+                        'id': 'item79a86-text',
+                        'source': 'item79a86',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -183,7 +183,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'Campo Grande/MS. 3',
+                name: 'item45',
                 subtitle: 'Campo Grande/MS. Escala 1:250.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -191,8 +191,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'Item45-fill',
-                        'source': 'Item45',
+                        'id': 'item45-fill',
+                        'source': 'item45',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -200,8 +200,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item45-border',
-                        'source': 'Item45',
+                        'id': 'item45-border',
+                        'source': 'item45',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -210,8 +210,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item45-text',
-                        'source': 'Item45',
+                        'id': 'item45-text',
+                        'source': 'item45',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -226,7 +226,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'Campo Grande/MS. 4',
+                name: 'item26e28',
                 subtitle: 'Campo Grande/MS. Escala 1:100.000',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -234,8 +234,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'Item26e28-fill',
-                        'source': 'Item26e28',
+                        'id': 'item26e28-fill',
+                        'source': 'item26e28',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -243,8 +243,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item26e28-border',
-                        'source': 'Item26e28',
+                        'id': 'item26e28-border',
+                        'source': 'item26e28',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -253,8 +253,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item26e28-text',
-                        'source': 'Item26e28',
+                        'id': 'item26e28-text',
+                        'source': 'item26e28',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.14,
@@ -278,7 +278,7 @@ var PROJECTS = {
         description: `Atender o PDDMT para cartas ortoimagens de 1:25.000 e 1:50.000.`,
         lotes: [
             {
-                name: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRangea ARP)ARP',
+                name: 'item_19',
                 subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRangea ARP)ARP',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
@@ -286,8 +286,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'Item_19-fill',
-                        'source': 'Item_19',
+                        'id': 'item_19-fill',
+                        'source': 'item_19',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -295,8 +295,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item_19-border',
-                        'source': 'Item_19',
+                        'id': 'item_19-border',
+                        'source': 'item_19',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -305,8 +305,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'Item_19-text',
-                        'source': 'Item_19',
+                        'id': 'item_19-text',
+                        'source': 'item_19',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
