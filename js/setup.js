@@ -444,6 +444,342 @@ var PROJECTS = {
                         }
                     }
                 ]
+            },
+            {
+                name: 'item-64',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-64-fill',
+                        'source': 'item-64',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-64-border',
+                        'source': 'item-64',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-64-text',
+                        'source': 'item-64',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item-68',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-68-fill',
+                        'source': 'item-68',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-68-border',
+                        'source': 'item-68',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-68-text',
+                        'source': 'item-68',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item-71',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-71-fill',
+                        'source': 'item-71',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-71-border',
+                        'source': 'item-71',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-71-text',
+                        'source': 'item-71',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item-72',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-72-fill',
+                        'source': 'item-72',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-72-border',
+                        'source': 'item-72',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-72-text',
+                        'source': 'item-72',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item-73',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-73-fill',
+                        'source': 'item-73',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-73-border',
+                        'source': 'item-73',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-73-text',
+                        'source': 'item-73',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item-254',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-254-fill',
+                        'source': 'item-254',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-254-border',
+                        'source': 'item-254',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-254-text',
+                        'source': 'item-254',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item-243a249',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-243a249-fill',
+                        'source': 'item-243a249',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-243a249-border',
+                        'source': 'item-243a249',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-243a249-text',
+                        'source': 'item-243a249',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item-256a270',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-256a270-fill',
+                        'source': 'item-256a270',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-243a249-border',
+                        'source': 'item-256a270',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-256a270-text',
+                        'source': 'item-256a270',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
             }
         ]
     }
