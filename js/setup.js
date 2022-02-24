@@ -279,7 +279,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'item-19',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Todo o mapa índice que abrange a ARP da 18ªBda Inf Fron (1:25.000)',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -321,7 +321,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-20',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron(1:50.000)',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -363,7 +363,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-21',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'MI das áreas dos PEF e da OM',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -405,7 +405,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-39',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Área da realização de Instruções de Batalhão em 2022.',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -447,7 +447,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-64',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Área: Perímetro do 9º Grupamento Logístico.',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -489,7 +489,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-68',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Área de influência/Área de interesse SESI-B – 11º RC Mec.',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -531,7 +531,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-71',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Área utilizada no Exercício de Certificação da 4ª Bda C Mec',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -573,7 +573,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-72',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'ARP do 17º RC MEC',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -615,7 +615,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-73',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'ARP do PEF Paranhos do 17o RC MEC',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -657,7 +657,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-254',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Produtos da Região de Formosa',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -699,7 +699,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-243a249',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Área da SASI-III',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
@@ -741,7 +741,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-256a270',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Área de Adestramento do 36º BI Mec “Córrego do Cravo”',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
