@@ -321,7 +321,7 @@ var PROJECTS = {
             },
             {
                 name: 'item-19',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:50.000)',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
