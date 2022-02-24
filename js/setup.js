@@ -360,6 +360,90 @@ var PROJECTS = {
                         }
                     }
                 ]
+            },
+            {
+                name: 'item-21',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-21-fill',
+                        'source': 'item-21',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-21-border',
+                        'source': 'item-21',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-21-text',
+                        'source': 'item-21',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item-39',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
+                zoom: [
+                    [-59.13, -26.02], // southwestern corner of the bounds
+                    [-48.58, -17.52] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-39-fill',
+                        'source': 'item-39',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-39-border',
+                        'source': 'item-39',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-39-text',
+                        'source': 'item-39',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
             }
         ]
     }
