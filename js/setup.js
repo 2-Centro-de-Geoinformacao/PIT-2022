@@ -318,48 +318,6 @@ var PROJECTS = {
                         }
                     }
                 ]
-            },
-            {
-                name: 'item-19',
-                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:50.000)',
-                zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
-                ],
-                styles: [
-                    {
-                        'id': 'item-19-fill',
-                        'source': 'item-19',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'item-19-border',
-                        'source': 'item-19',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'item-19-text',
-                        'source': 'item-19',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
             }
         ]
     }
