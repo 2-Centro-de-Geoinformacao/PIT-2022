@@ -99,8 +99,8 @@ var PROJECTS = {
                 name: 'item87a90',
                 subtitle: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. Escala 1:100.000',
                 zoom: [
-                    [-55.2538,-22.5863], // southwestern corner of the bounds
-                    [-52.2094,-19.8656] // northeastern corner of the bounds
+                    [-56.786,-23.504], // southwestern corner of the bounds
+                    [-51.846,-19.529] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -143,8 +143,8 @@ var PROJECTS = {
                 name: 'item79a86',
                 subtitle: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. Escala 1:250.000',
                 zoom: [
-                    [-58.501,-24.743], // southwestern corner of the bounds
-                    [-49.371,-17.824]// northeastern corner of the bounds
+                    [-60.467,-25.935], // southwestern corner of the bounds
+                    [-47.784,-16.799]// northeastern corner of the bounds
                 ],
                 styles: [
                     {
