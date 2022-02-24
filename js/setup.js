@@ -83,8 +83,8 @@ const SUBTITLE_STATES = [
 ]
 
 const INIT_ZOOM = {
-    center: [-53.99235736195203, -27.426307807866984],
-    zoom: 4.83
+    center: [-53.877,-18.942],
+    zoom: 3
 }
 
 var PROJECTS = {
@@ -99,8 +99,8 @@ var PROJECTS = {
                 name: 'item87a90',
                 subtitle: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. Escala 1:100.000',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-55.2538,-22.5863], // southwestern corner of the bounds
+                    [-52.2094,-19.8656] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -143,8 +143,8 @@ var PROJECTS = {
                 name: 'item79a86',
                 subtitle: 'Utilização nos exercícios de adestramento com o RADAR SABER M60 e COAAe Elt. Escala 1:250.000',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52]// northeastern corner of the bounds
+                    [-58.501,-24.743], // southwestern corner of the bounds
+                    [-49.371,-17.824]// northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -186,8 +186,8 @@ var PROJECTS = {
                 name: 'item45',
                 subtitle: 'Campo Grande/MS. Escala 1:250.000',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-56.138,-21.428], // southwestern corner of the bounds
+                    [-53.159,-19.046] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -229,8 +229,8 @@ var PROJECTS = {
                 name: 'item26e28',
                 subtitle: 'Campo Grande/MS. Escala 1:100.000',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-55.6349,-21.1527], // southwestern corner of the bounds
+                    [-54.0236,-19.6822] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -281,8 +281,8 @@ var PROJECTS = {
                 name: 'item-19',
                 subtitle: 'Todo o mapa índice que abrange a ARP da 18ªBda Inf Fron (1:25.000)',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-59.4532,-21.7192], // southwestern corner of the bounds
+                    [-56.0924,-17.1131] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -323,8 +323,8 @@ var PROJECTS = {
                 name: 'item-20',
                 subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron(1:50.000)',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-59.238,-22.422], // southwestern corner of the bounds
+                    [-55.884,-19.092] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -365,8 +365,8 @@ var PROJECTS = {
                 name: 'item-21',
                 subtitle: 'MI das áreas dos PEF e da OM',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-61.971,-17.443], // southwestern corner of the bounds
+                    [-56.177,-12.513] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -407,8 +407,8 @@ var PROJECTS = {
                 name: 'item-39',
                 subtitle: 'Área da realização de Instruções de Batalhão em 2022.',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-52.8653,-16.2084], // southwestern corner of the bounds
+                    [-51.6061,-15.0946] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -449,8 +449,8 @@ var PROJECTS = {
                 name: 'item-64',
                 subtitle: 'Área: Perímetro do 9º Grupamento Logístico.',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-54.8517,-20.7044], // southwestern corner of the bounds
+                    [-54.3190,-20.2268] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -491,8 +491,8 @@ var PROJECTS = {
                 name: 'item-68',
                 subtitle: 'Área de influência/Área de interesse SESI-B – 11º RC Mec.',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-56.5509,-23.7769], // southwestern corner of the bounds
+                    [-53.0712,-21.7187] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -533,8 +533,8 @@ var PROJECTS = {
                 name: 'item-71',
                 subtitle: 'Área utilizada no Exercício de Certificação da 4ª Bda C Mec',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-55.8286,-22.5607], // southwestern corner of the bounds
+                    [-55.3955,-22.1607] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -575,8 +575,8 @@ var PROJECTS = {
                 name: 'item-72',
                 subtitle: 'ARP do 17º RC MEC',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-55.8852,-23.5803], // southwestern corner of the bounds
+                    [-54.8884,-22.9132] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -617,8 +617,8 @@ var PROJECTS = {
                 name: 'item-73',
                 subtitle: 'ARP do PEF Paranhos do 17o RC MEC',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-55.6221,-24.0711], // southwestern corner of the bounds
+                    [-54.6305,-23.3700] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -659,8 +659,8 @@ var PROJECTS = {
                 name: 'item-254',
                 subtitle: 'Produtos da Região de Formosa',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-47.4589,-15.6793], // southwestern corner of the bounds
+                    [-47.2035,-15.4614] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -701,8 +701,8 @@ var PROJECTS = {
                 name: 'item-243a249',
                 subtitle: 'Área da SASI-III',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-50.2505,-17.6630], // southwestern corner of the bounds
+                    [-48.1571,-15.7743] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -743,8 +743,8 @@ var PROJECTS = {
                 name: 'item-256a270',
                 subtitle: 'Área de Adestramento do 36º BI Mec “Córrego do Cravo”',
                 zoom: [
-                    [-59.13, -26.02], // southwestern corner of the bounds
-                    [-48.58, -17.52] // northeastern corner of the bounds
+                    [-49.0879,-19.6810], // southwestern corner of the bounds
+                    [-47.7850,-18.8491] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
