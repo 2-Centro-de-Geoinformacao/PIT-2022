@@ -320,16 +320,16 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'item-21',
-                subtitle: 'MI das áreas dos PEF e da OM. Escala 1:100.000',
+                name: 'item-19',
+                subtitle: 'Todo o mapa índice que ABRange a ARP da 18ªBda Inf Fron (ao menosa Fx Fron que ABRange ARP) (1:25.000)',
                 zoom: [
                     [-59.13, -26.02], // southwestern corner of the bounds
                     [-48.58, -17.52] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
-                        'id': 'item-21-fill',
-                        'source': 'item-21',
+                        'id': 'item-19-fill',
+                        'source': 'item-19',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -337,8 +337,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item-21-border',
-                        'source': 'item-21',
+                        'id': 'item-19-border',
+                        'source': 'item-19',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -347,11 +347,10 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'item-21-text',
-                        'source': 'item-21',
+                        'id': 'item-19-text',
+                        'source': 'item-19',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 6.14,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
@@ -359,6 +358,8 @@ var PROJECTS = {
                         'paint': {
 
                         }
+                    }
+                ]
             }
         ]
     }
