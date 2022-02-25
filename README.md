@@ -2,4 +2,4 @@
 
 Site de acesso:
 
-https://lfp-trabalho.github.io/PIT_DSG/
+https://2-cgeo.github.io/projetos/
