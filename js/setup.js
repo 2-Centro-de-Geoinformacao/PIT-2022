@@ -488,48 +488,6 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'item-68',
-                subtitle: 'Área de influência/Área de interesse SESI-B – 11º RC Mec.',
-                zoom: [
-                    [-56.5509,-23.7769], // southwestern corner of the bounds
-                    [-53.0712,-21.7187] // northeastern corner of the bounds
-                ],
-                styles: [
-                    {
-                        'id': 'item-68-fill',
-                        'source': 'item-68',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'item-68-border',
-                        'source': 'item-68',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'item-68-text',
-                        'source': 'item-68',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
                 name: 'item-71',
                 subtitle: 'Área utilizada no Exercício de Certificação da 4ª Bda C Mec',
                 zoom: [
@@ -876,7 +834,7 @@ var PROJECTS = {
             },
             {
                 name: 'item40025k',
-                subtitle: '10ºRCMEC',
+                subtitle: '10ºRCMEC (Carta ortoimagem 1:25.000)',
                 zoom: [
                     [-57.8675,-22.4326], // southwestern corner of the bounds
                     [-55.8147,-21.2826]// northeastern corner of the bounds
@@ -918,7 +876,7 @@ var PROJECTS = {
             },
             {
                 name: 'item40050k',
-                subtitle: '10ºRCMEC',
+                subtitle: '10ºRCMEC (Carta ortoimagem 1:50.000)',
                 zoom: [
                     [-57.8675,-22.4326], // southwestern corner of the bounds
                     [-55.8147,-21.2826] // northeastern corner of the bounds
@@ -946,6 +904,48 @@ var PROJECTS = {
                     {
                         'id': 'item40050k-text',
                         'source': 'item40050k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item-68',
+                subtitle: 'Área de influência/Área de interesse SESI-B – 11º RC Mec. (MDS)',
+                zoom: [
+                    [-56.5509,-23.7769], // southwestern corner of the bounds
+                    [-53.0712,-21.7187] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item-68-fill',
+                        'source': 'item-68',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item-68-border',
+                        'source': 'item-68',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item-68-text',
+                        'source': 'item-68',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
