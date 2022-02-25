@@ -941,7 +941,7 @@ var PROJECTS = {
         legend: [
             1,3,5,6,7,8
         ],
-        description: `Atender as demandas especificadas da força.`,
+        description: ``,
         lotes: [
             {
                 name: 'item-68',
