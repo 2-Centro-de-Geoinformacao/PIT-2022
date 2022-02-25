@@ -1,7 +1,5 @@
 # Apresentação de projetos
 
-TESTE TESTE TESTE TESTE TESTE TESTE TESTE
+Site de acesso:
 
 https://lfp-trabalho.github.io/PIT_DSG/
-
-TESTE TESTE TESTE TESTE TESTE TESTE TESTE
