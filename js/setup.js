@@ -741,16 +741,16 @@ var PROJECTS = {
             }
         ]
     },
-    'pit-22': {
-        title: 'PIT 22 (além do PDDMT)',
+    'sisfron': {
+        title: 'Sistema Integrado de Monitoramento de Fronteira (SISFRON)',
         legend: [
             1,3,5,6,7,8
         ],
-        description: `Atender as demandas especificadas da força.`,
+        description: ``,
         lotes: [
             {
                 name: 'sisfron',
-                subtitle: 'Carta topográfica Sisfron (1:25.000)',
+                subtitle: 'Carta topográfica (1:25.000)',
                 zoom: [
                     [-56.0932,-24.2224], // southwestern corner of the bounds
                     [-54.1186,-22.3073] // northeastern corner of the bounds
@@ -789,10 +789,19 @@ var PROJECTS = {
                         }
                     }
                 ]
-            },
+            }
+        ]
+    },
+    'df': {
+        title: 'Distrito Federal',
+        legend: [
+            1,3,5,6,7,8
+        ],
+        description: ``,
+        lotes: [
             {
                 name: 'df',
-                subtitle: 'Carta topográfica DF (1:25.000)',
+                subtitle: 'Carta topográfica (1:25.000)',
                 zoom: [
                     [-48.2611,-16.0707], // southwestern corner of the bounds
                     [-47.6026,-15.5160] // northeastern corner of the bounds
@@ -832,9 +841,18 @@ var PROJECTS = {
                     }
                 ]
             },
+        ]
+    },
+    'rcmec-10': {
+        title: '10ºRCMEC',
+        legend: [
+            1,3,5,6,7,8
+        ],
+        description: `Atender as demandas especificadas da força.`,
+        lotes: [
             {
                 name: 'item40025k',
-                subtitle: '10ºRCMEC (Carta ortoimagem 1:25.000)',
+                subtitle: 'Carta ortoimagem 1:25.000',
                 zoom: [
                     [-57.8675,-22.4326], // southwestern corner of the bounds
                     [-55.8147,-21.2826]// northeastern corner of the bounds
@@ -870,13 +888,13 @@ var PROJECTS = {
                         },
                         'paint': {
 
-                        }
+                       }
                     }
-                ]
+                 ]
             },
             {
                 name: 'item40050k',
-                subtitle: '10ºRCMEC (Carta ortoimagem 1:50.000)',
+                subtitle: 'Carta ortoimagem 1:50.000',
                 zoom: [
                     [-57.8675,-22.4326], // southwestern corner of the bounds
                     [-55.8147,-21.2826] // northeastern corner of the bounds
@@ -916,9 +934,18 @@ var PROJECTS = {
                     }
                 ]
             },
+        ]
+    },
+    'rcmec-11': {
+        title: 'SESI-B – 11º RC Mec',
+        legend: [
+            1,3,5,6,7,8
+        ],
+        description: `Atender as demandas especificadas da força.`,
+        lotes: [
             {
                 name: 'item-68',
-                subtitle: 'Área de influência/Área de interesse SESI-B – 11º RC Mec. (MDS)',
+                subtitle: 'Área de influência/Área de interesse do SESI-B – 11º RC Mec (MDS)',
                 zoom: [
                     [-56.5509,-23.7769], // southwestern corner of the bounds
                     [-53.0712,-21.7187] // northeastern corner of the bounds
