@@ -91,7 +91,7 @@ var PROJECTS = {
     'ppdmt-topo': {
         title: 'PDDMT 22 (Cartas Topográficas)',
         legend: [
-            1
+            1,3,5,6,7,8
         ],
         description: `Atender o PDDMT para cartas topográficas de 1:250.000 e 1:100.000.`,
         lotes: [
@@ -273,7 +273,7 @@ var PROJECTS = {
     'pddmt-orto': {
         title: 'PDDMT 22 (Cartas Ortoimagens)',
         legend: [
-            1
+            1,3,5,6,7,8
         ],
         description: `Atender o PDDMT para cartas ortoimagens de 1:25.000 e 1:50.000.`,
         lotes: [
@@ -769,6 +769,183 @@ var PROJECTS = {
                     {
                         'id': 'item-256a270-text',
                         'source': 'item-256a270',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    'pit-22': {
+        title: 'PIT 22 (além do PDDMT)',
+        legend: [
+            1,3,5,6,7,8
+        ],
+        description: `Atender as demandas especificadas da força.`,
+        lotes: [
+            {
+                name: 'sisfron',
+                subtitle: 'Carta topográfica Sisfron (1:25.000)',
+                zoom: [
+                    [-56.0932,-24.2224], // southwestern corner of the bounds
+                    [-54.1186,-22.3073] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'sisfron-fill',
+                        'source': 'sisfron',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'sisfron-border',
+                        'source': 'sisfron',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'sisfron-text',
+                        'source': 'sisfron',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'df',
+                subtitle: 'Carta topográfica DF (1:25.000)',
+                zoom: [
+                    [-48.2611,-16.0707], // southwestern corner of the bounds
+                    [-47.6026,-15.5160] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'df-fill',
+                        'source': 'df',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'df-border',
+                        'source': 'df',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'df-text',
+                        'source': 'df',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item40025k',
+                subtitle: '10ºRCMEC',
+                zoom: [
+                    [-57.8675,-22.4326], // southwestern corner of the bounds
+                    [-55.8147,-21.2826]// northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item40025k-fill',
+                        'source': 'item40025k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item40025k-border',
+                        'source': 'item40025k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item40025k-text',
+                        'source': 'item40025k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'item40050k',
+                subtitle: '10ºRCMEC',
+                zoom: [
+                    [-57.8675,-22.4326], // southwestern corner of the bounds
+                    [-55.8147,-21.2826] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'item40050k-fill',
+                        'source': 'item40050k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'item40050k-border',
+                        'source': 'item40050k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'item40050k-text',
+                        'source': 'item40050k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
